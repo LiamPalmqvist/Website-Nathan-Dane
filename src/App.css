@@ -18,7 +18,7 @@
   src: local('FiraCode'), url(./fonts/FiraCode-Regular.ttf) format('truetype')
 }
 
-.div {
+.topDiv {
   background-color: #242830;
   display: flex;
   justify-content: center;
@@ -36,8 +36,11 @@
   width: 100%;
 }
 
-.p {
-
+.span1 {
+  background-color: #22252b;
+  border-radius: 25px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .header {
@@ -49,7 +52,7 @@
 .image {
   height: 10vmin;
   pointer-events: none;
-  padding: 0px 25px
+  padding: 25px;
 }
 
 .image:hover {
