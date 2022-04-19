@@ -17,3 +17,61 @@
   font-family: 'Fira Code';
   src: local('FiraCode'), url(./fonts/FiraCode-Regular.ttf) format('truetype')
 }
+
+.div {
+  background-color: #242830;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+#top {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+}
+
+.p {
+
+}
+
+.header {
+  font-family: 'Fira Code', monospace;
+  font-size: 200%;
+  color: #ffffff;
+}
+
+.image {
+  height: 10vmin;
+  pointer-events: none;
+  padding: 0px 25px
+}
+
+.image:hover {
+  cursor: pointer;
+}
+
+@media (prefers-reduced-motion: no-preference){
+  .image{
+      animation: rotate infinite 10s ease-in-out;
+  }
+}
+
+@keyframes rotate {
+  
+  0% {
+      transform: rotate(5deg);
+  }
+
+  50% {
+      transform: rotate(-5deg);
+  }
+
+  100% {
+      transform: rotate(5deg);
+  }
+}

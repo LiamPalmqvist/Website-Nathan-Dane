@@ -1,16 +1,22 @@
-import React from 'react';
 import './App.css';
-import Header from './components/header';
 import s from './components/styles'
-
+import logoTriangle from './images/LogoTringle.svg';
 
 function App() {
   return (
     <div className="App">
+      
       <header className="App-header" style={s.h1Styles}>
-        <Header />
-        <p>Welcome to the website!</p>
 
+        <div className="div" id="top">
+        
+          <img src={logoTriangle} className="image" alt="logo"/>
+          <header className="header">Welcome to the website!</header>
+        
+        </div>  
+
+        <p className="p">Welcome to the website!</p>
+      
       </header>
     </div>
   );
