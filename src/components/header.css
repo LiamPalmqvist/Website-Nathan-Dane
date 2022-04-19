@@ -1,0 +1,38 @@
+.header {
+    font-family: 'Fira Code', monospace;
+    font-size: 5rem;
+    color: #fff;
+    background-color: #242830;
+    display: flex;
+    justify-content: top;
+    padding: 16px;
+    align-items: center;
+    width: stretch;
+}
+
+.image {
+    height: 10vmin;
+    pointer-events: none;
+    padding: 0px 25px
+}
+
+@media (prefers-reduced-motion: no-preference){
+    .image{
+        animation: rotate infinite 10s ease-in-out;
+    }
+}
+
+@keyframes rotate {
+    
+    0% {
+        transform: rotate(5deg);
+    }
+
+    50% {
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        transform: rotate(5deg);
+    }
+}
