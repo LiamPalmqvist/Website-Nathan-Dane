@@ -23,13 +23,16 @@ function App() {
           <div className="div">
 
             <img src={profilePhoto} alt="ProfilePhoto" className="displayImage"/>
-            <text className="paragraph">This handsome fellow is Nathan Dane. He is the one responsible for the creation of this site. I know I'm just typing a bunch of shit in here but temporary text is what it is. Not go and look at his songs, damnit!</text>
+            <text className="paragraph">This cool dude is Nathan Dane. He is the one responsible for the creation of this site. I know I'm just typing a bunch of shit in here but temporary text is what it is. Not go and listen to his songs, damnit!</text>
           
           </div> 
 
-          <p className="p">Welcome to the website!</p>
-          <Spotify link="https://open.spotify.com/album/4VPQEYE833Fk44YdfrVytp?si=DStvqt6-SO64vRpHqRpJCg"/>
-          <p>Hello there!</p>
+          <div className="div">
+
+            <text className="paragraph">This cool dude is Nathan Dane. He is the one responsible for the creation of this site. I know I'm just typing a bunch of shit in here but temporary text is what it is. Not go and listen to his songs, damnit!</text>
+            <Spotify link="https://open.spotify.com/album/4VPQEYE833Fk44YdfrVytp?si=DStvqt6-SO64vRpHqRpJCg" className="spotify"/>
+
+          </div> 
 
         </span>
       

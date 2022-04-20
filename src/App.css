@@ -41,6 +41,7 @@
   border-radius: 25px;
   padding: 16px;
   margin: 25px;
+  width: 60%;
 }
 
 .header {
@@ -86,6 +87,7 @@
   margin-top: 25px;
   margin-bottom: 16px;
   margin-right: 20px;
+  margin-left: 20px;
   width: 100vh;
 }
 
@@ -96,6 +98,14 @@
 
 .displayImage {
   margin: 20px;
+  border: #1d1d1b;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 100%;
+}
+
+.spotify {
+  margin: 30px;
   border: #1d1d1b;
   border-style: solid;
   border-width: 5px;
