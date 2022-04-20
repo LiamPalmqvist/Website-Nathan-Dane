@@ -23,7 +23,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 16px;
+  padding-top: 25px;
   padding-bottom: 16px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -49,20 +49,18 @@
   color: #ffffff;
 }
 
-.image {
-  height: 10vmin;
+.logoImage {
+  height: 10vh;
   pointer-events: none;
-  padding: 25px;
+  padding: 7px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  animation: rotate infinite 10s ease-in-out;
 }
 
 .image:hover {
   cursor: pointer;
-}
-
-@media (prefers-reduced-motion: no-preference){
-  .image{
-      animation: rotate infinite 10s ease-in-out;
-  }
 }
 
 @keyframes rotate {

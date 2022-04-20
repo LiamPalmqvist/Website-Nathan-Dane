@@ -10,15 +10,14 @@ function App() {
       <header className="App-header" style={s.h1Styles}>
 
         <div className="topDiv" id="top">
-      
+
           <header className="header">Nathan Dane</header>
         
-        </div>  
-
+        </div>          
+        <img src={logoTriangle} className="logoImage" alt="logo"/>  
       
         <span className="span">
-
-          <img src={logoTriangle} className="image" alt="logo"/>
+          
 
           <p className="p">Welcome to the website!</p>
 
