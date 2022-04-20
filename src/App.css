@@ -36,11 +36,11 @@
   width: 100%;
 }
 
-.span1 {
+.span {
   background-color: #22252b;
   border-radius: 25px;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding: 16px;
+  margin: 25px;
 }
 
 .header {

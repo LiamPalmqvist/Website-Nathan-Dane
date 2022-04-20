@@ -15,14 +15,16 @@ function App() {
         
         </div>  
 
-        <img src={logoTriangle} className="image" alt="logo"/>
+      
+        <span className="span">
 
-        <p className="p">Welcome to the website!</p>
+          <img src={logoTriangle} className="image" alt="logo"/>
 
-        <Spotify link="https://open.spotify.com/album/4VPQEYE833Fk44YdfrVytp?si=DStvqt6-SO64vRpHqRpJCg"/>
+          <p className="p">Welcome to the website!</p>
 
-        <span className="span1">
+          <Spotify link="https://open.spotify.com/album/4VPQEYE833Fk44YdfrVytp?si=DStvqt6-SO64vRpHqRpJCg"/>
           <p>Hello there!</p>
+
         </span>
       
       </header>
