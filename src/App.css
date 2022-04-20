@@ -50,7 +50,7 @@
 }
 
 .logoImage {
-  height: 10vh;
+  height: 10vmin;
   pointer-events: none;
   padding: 7px;
   position: absolute;
