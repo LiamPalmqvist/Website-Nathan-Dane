@@ -24,7 +24,7 @@ function App() {
           <div className="div">
 
             <img src={profilePhoto} alt="ProfilePhoto" className="displayImage" id="border"/>
-            <text className="paragraph">This cool dude is Nathan Dane. He is (not) the one responsible for the creation of this site. I know I'm just typing a bunch of shit in here but temporary text is what it is. Not go and listen to his songs, damnit!</text>
+            <text className="paragraph">This cool dude is Nathan Dane. He is (not) the one responsible for the creation of this site. I know I'm just typing a bunch of crap in here but temporary text is what it is. Not go and listen to his songs, damnit!</text>
           
           </div> 
 
